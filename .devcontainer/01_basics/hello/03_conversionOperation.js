@@ -54,3 +54,60 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);            //o/p: 33
 console.log(typeof stringNumber);     //o/p: string (here number type is changged to string; only  come to know when logged)
+
+
+
+//**********************************OPERATIONS ********************************************//
+  
+//negative value
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+//some similar operations
+// console.log(2 + 2);      //addition
+// console.log(2 - 2);      //subtraction
+// console.l0g(2 * 2);      //multiplication
+// console.log(2 ** 3);     //power.. 2 to the power 3
+// console.log(2/3);        //division
+// console.log(2 % 3);      //remainder/ modulus(useful in cryptography and algorithms)
+
+let str1 = "Hello"
+let str2 = " World"  //space is given in beginning to prevent strings, joining.
+
+let str3 = str1 + str2 
+console.log(str3);     //o/p: hello world
+
+
+
+//lets discuss some complex situation in the problems
+console.log("1" + 2);         //o/p: 12
+console.log(1 + "2");         //o/p: 12
+console.log("1" + "2");       //o/p: 12
+console.log("1" + 2 +  2);    //o/p: 122
+console.log(1 + 2 + "2");      //o/p: 32
+console.log((3 + 4) * 5 % 3);
+//this type of above operations, isn't a good coding practice.. not usable in big tech companies, but if want to search in detail about the logic, read the emma script JS documentation
+
+// not good coding practice 
+console.log(+true); //o/p: 1
+// console.log(true+); //o/p: error
+console.log(+""); //o/p: 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2      //not readable code, hence not a good practice
+
+//usable, topic is important => prefix and postfix
+let gameCounter = 100;      //starting value
+// gameCounter++;      //o/p: 101 => postfix precedence
+++gameCounter;          //o/p: 101 => prefix precedence
+console.log(gameCounter);
+
+// If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+
+// If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+
+
+//some topics to go through.
+//prefix and postfix topic: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+//conversion topic: https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
