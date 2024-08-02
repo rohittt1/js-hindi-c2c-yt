@@ -34,3 +34,8 @@ then, it'll ask for REBUITLT for the changes..click OK... and machine will be re
 
 //as dicussed in 05_string.js, the console part of the string is included here:
 ![strings_execution_in_console](https://github.com/user-attachments/assets/a5066106-fcfc-4f66-9954-f2e8824bf676)
+
+
+//more about numbers and its functions in JS, check console and explore the properties,  06_nums_and_maths.js
+
+![numbersanditsfunctionsinjs](https://github.com/user-attachments/assets/846139c2-1885-432c-8a8f-1c05b5130f06)
