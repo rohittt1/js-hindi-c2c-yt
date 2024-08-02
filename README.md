@@ -28,4 +28,9 @@ then, it'll ask for REBUITLT for the changes..click OK... and machine will be re
 //only when pushed the file is completely/successfully saved... and when reloaded again..the files are visible.
 //and when need the files.... click <code> ---> Local ---> dowmload zip and access it.
 
-//
+![codespaceterminalguide](https://github.com/user-attachments/assets/dced8ccd-aaa9-4247-b087-71df719c3824)
+
+
+
+
+![strings_execution_in_console](https://github.com/user-attachments/assets/a5066106-fcfc-4f66-9954-f2e8824bf676)
