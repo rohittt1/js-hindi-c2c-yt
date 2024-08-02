@@ -28,9 +28,9 @@ then, it'll ask for REBUITLT for the changes..click OK... and machine will be re
 //only when pushed the file is completely/successfully saved... and when reloaded again..the files are visible.
 //and when need the files.... click <code> ---> Local ---> dowmload zip and access it.
 
+//setup  the terminal in getting inside the required directory following this
 ![codespaceterminalguide](https://github.com/user-attachments/assets/dced8ccd-aaa9-4247-b087-71df719c3824)
 
 
-
-
+//as dicussed in 05_string.js, the console part of the string is included here:
 ![strings_execution_in_console](https://github.com/user-attachments/assets/a5066106-fcfc-4f66-9954-f2e8824bf676)
